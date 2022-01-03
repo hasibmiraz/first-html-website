@@ -13,8 +13,16 @@ h1 {
   color: orange;
 }
 
-.section-one {
+section {
   display: flex;
+}
+
+.descriptin-one,
+.descriptin-two {
+  color: gray;
+}
+
+.section-one {
   background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
 }
@@ -24,7 +32,7 @@ h1 {
   padding: 3%;
 }
 
-.author-image img {
+.description img {
   width: 90%;
   padding: 3%;
 }
@@ -39,5 +47,11 @@ h1 {
 }
 
 .section-two {
-  display: flex;
+  background-image: url('images/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.descriptin-two {
+  padding-right: 70px;
 }
